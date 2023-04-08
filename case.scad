@@ -137,7 +137,7 @@ module eyelets() {
 }
 
 
-case_top();
-*eyelets();
-*case_bottom();
+*case_top();
+eyelets();
+case_bottom();
 *translate([ 0, 0, 1 ]) circuit();
