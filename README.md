@@ -4,6 +4,8 @@ A simple snap-on case for an RP2040-based accelerometer module for Klipper, usin
 
 ![](img/box.jpg)
 
+The `models` folder includes a little soldering jig to hold both boards together in approximately the same position as the case.
+
 ## Configuration Notes
 
 This was first outlined [in this Klipper forum post](https://klipper.discourse.group/t/raspberry-pi-pico-adxl345-portable-resonance-measurement/1757).
@@ -35,4 +37,3 @@ accel_chip: adxl345
 probe_points:
     100,100,20 # an example
 ```
-The models include a little soldering jig to hold both boards together in approximately the same position as the case.
